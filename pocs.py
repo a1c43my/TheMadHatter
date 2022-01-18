@@ -60,8 +60,6 @@ def downloadData(files,offset):
         d.write(data.text)
         d.close()
 
-
-
 def portscan(port,host):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(0.5)
