@@ -1,0 +1,80 @@
+Get-WmiObject win32_service | where {$_.name -eq 'TLXD'}
+
+
+Get-EventLog -LogName System -Newest 10
+Get-EventLog -LogName Application -Newest 10
+Get-EventLog -LogName System -After "02/18/2022" -Before "02/19/2022"
+Get-EventLog -LogName System -Newest 10 -EntryType Error
+Get-EventLog -LogName System -After "02/18/2022" -Before "02/19/2022" -EntryType Error
+
+
+Get-ChildItem C:\Users\sk8fl\Desktop\the_alchemist\ -Include *.py -r
+
+Get-FileHash .\test.txt
+
+Get-FileHash .\test.txt -Algorithm MD5
+
+Get-FileHash .\test.txt -Algorithm SHA1
+
+Get-FileHash .\test.txt -Algorithm SHA512
+
+
+Test-Path C:\Users\sk8fl\
+
+Test-Path C:\dddd
+
+Invoke-WebRequest https://github.com/a1c43my
+
+New-Item base64.txt
+
+echo dGhlZmxhZyEhISE= > .\base64.txt
+
+$encoded = Get-Content .\base64.txt
+[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String($encoded)) | Write-Output
+
+[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String($(Get-Content .\base64.txt))) | Write-Output
+
+
+Get-LocalGroup
+
+Get-LocalUser
+
+Get-WmiObject win32_useraccount
+Get-WmiObject win32_useraccount | select FullName,sid
+
+
+Get-LocalUser | Where-Object -Property PasswordRequired
+
+Get-LocalUser | Where-Object -Property PasswordRequired -eq True
+
+Get-LocalUser | Where-Object -Property PasswordRequired -Match False
+Get-LocalGroup
+
+
+Get-NetIPAddress | select IPAddress
+
+
+Get-NetIPAddress | select InterfaceAlias,AddressFamily,IPAddress
+
+
+Get-NetTCPConnection -State Listen
+
+Get-NetTCPConnection -State Established
+
+Get-HotFix | Measure-Object
+
+Get-HotFix | measure
+
+Get-ChildItem -r | Select-String "cnc" -List
+
+Get-ScheduledTask -TaskName "*Mozilla*"
+Get-ScheduledTask -TaskName "Mozilla*"
+Get-ScheduledTask -TaskName "Firefox*"
+
+Get-ScheduledTask -TaskName "*chrome*"
+Get-ScheduledTask -TaskName "*google*"
+Get-ScheduledTask
+
+Get-Acl
+Get-Acl 'C:\$Recycle.Bin\'
+
