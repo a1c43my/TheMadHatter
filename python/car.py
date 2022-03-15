@@ -50,6 +50,7 @@ def keyIn():
 
 def engineStart():
     engineOn = True
+    print('engine started')
     return engineOn
 #
 #######################################
