@@ -1,0 +1,11 @@
+ECHO is on.
+PAR_Recur
+ECHO is on.
+PAR_Recur
+
+
+<tr id='logentry2401889' _log24_flags_PAR_Recurrence_(Closed)'>
+
+<tr id='logentry2401838' g24_flags_PAR_Recurrence_(Open)'><
+
+

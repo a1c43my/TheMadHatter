@@ -1,0 +1,1401 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Bugzilla</Author>
+  <LastAuthor>Bugzilla</LastAuthor>
+  <Created>10:58:00 24-Jan-2022</Created>
+  <LastSaved>10:58:00 24-Jan-2022</LastSaved>
+  <Company>Bugzilla.org</Company>
+  <Version>10.2625</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21" ss:Name="Hyperlink">
+   <Font ss:FontName="Verdana" ss:Color="#0000D4" ss:Underline="Single"/>
+   <NumberFormat ss:Format="General Number"/>
+  </Style>
+  <Style ss:ID="s22" >
+   <NumberFormat ss:Format="General Number"/>
+  </Style>
+  <Style ss:ID="s24">
+   <NumberFormat ss:Format="General Date"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="200.0" ss:DefaultRowHeight="30.0">
+   <Column ss:AutoFitWidth="0" ss:Width="50.0"/>
+   <Column ss:AutoFitWidth="0" ss:Width="200.0" />
+   <Column ss:AutoFitWidth="0" ss:Width="200.0" />
+   <Column ss:AutoFitWidth="0" ss:Width="200.0" />
+   <Column ss:AutoFitWidth="0" ss:Width="100.0" />
+   <Column ss:AutoFitWidth="0" ss:Width="200.0" />
+   <Column ss:AutoFitWidth="0" ss:Width="200.0" />
+   <Row ss:AutoFitHeight="0" ss:Height="30.0" >
+    <Cell><Data ss:Type="String">Record</Data></Cell>
+    <Cell><Data ss:Type="String">Source</Data></Cell>
+    <Cell><Data ss:Type="String">Alias</Data></Cell>
+    <Cell><Data ss:Type="String">Title</Data></Cell>
+    <Cell><Data ss:Type="String">Instance of Anomaly (GMT)</Data></Cell>
+    <Cell><Data ss:Type="String">Status</Data></Cell>
+    <Cell><Data ss:Type="String">Status Resolution</Data></Cell>
+  </Row>
+
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26161" ><Data ss:Type="Number">26161</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">AMS-SW-0021</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">AMS Crash Caused by AMS Laptop Dark Fiber APS Transmitter Power Loss</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-13T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26042" ><Data ss:Type="Number">26042</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ASTROBEE-HW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Soundsee Housing Crack and Broken Piece</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-07-22T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26066" ><Data ss:Type="Number">26066</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ASTROBEE-SW-0004</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Astrobee Processor for Honey failed to boot. (Unexpected  LED configuration)</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-19T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26026" ><Data ss:Type="Number">26026</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Bioculture-SW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Bioculture System Loss of Command Capability</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-07-07T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26077" ><Data ss:Type="Number">26077</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Bioculture-SW-0004</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Bioculture System Loss of H&amp;S and Spontaneous Reboot</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-02T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25942" ><Data ss:Type="Number">25942</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CAL-HW-0009</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Intermittent Atom Signals</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-04-15T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26041" ><Data ss:Type="Number">26041</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CAL-SW-0011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Software hangup due to new hardware not communicating with software</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-07-21T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26058" ><Data ss:Type="Number">26058</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CAL-SW-0012</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Commanding and Telemetry Without Return, Even After Power Cycle</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-12T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26146" ><Data ss:Type="Number">26146</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CAL-SW-0013</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CAL Not Responding Despite Multiple Power Cycles</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-11-16T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25982" ><Data ss:Type="Number">25982</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Celestial-Immunity-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Cross contamination and effectively rendered plate Alpha useless</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-05-28T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25423" ><Data ss:Type="Number">25423</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR-HW-0046</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR GC Bottle at Lower Pressure than Expected</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-05-13T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25458" ><Data ss:Type="Number">25458</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR-HW-0047</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">QD Leak During ACME Igniter Replace</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25740" ><Data ss:Type="Number">25740</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR-HW-0050</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Broken Fiber During Acme Test Point Commanding</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-12-23T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25960" ><Data ss:Type="Number">25960</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR-HW-0052</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Manifold #4 Bottle (S/N 2040) Mislabeled Contents</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-05-07T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26050" ><Data ss:Type="Number">26050</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR-HW-0053</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR Manifold 2 Pressure Relief Valve Housing Un-torqued due to CCW Rotation of Pressure Relief Valve</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-03T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26056" ><Data ss:Type="Number">26056</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR-HW-0054</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">CIR nitrogen venting exceeded 80 mtorr for 10 minute RIV leak limit</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-11T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26054" ><Data ss:Type="Number">26054</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ECOSTRESS-SW-0012</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Fluctuating Data Rates Between ECOSTRESS and WAP</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26110" ><Data ss:Type="Number">26110</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ECOSTRESS-SW-0013</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Data Processing Failure due to Off-Nominal FPIE Setup</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-29T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25792" ><Data ss:Type="Number">25792</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ELC3-SW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ELC 3 ExPA-1 Current Limit Level Unable to be Set to Proper Level</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25390" ><Data ss:Type="Number">25390</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">EXPRESS-HW-0006</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Momentary Increase in ER AAA Fan Speed</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26019" ><Data ss:Type="Number">26019</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">EXPRESS_Laptop-SW-0005</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">EXPRESS Laptop Loss of Comm Following PEHG Anomaly</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-30T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25640" ><Data ss:Type="Number">25640</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk3-SW-0034</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ER3 AAA channel trip indication post-RIC Reboot</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25952" ><Data ss:Type="Number">25952</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk3-SW-0037</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Express Rack 3 SERC Heartbeat Stopped</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-04-27T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26085" ><Data ss:Type="Number">26085</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk3-SW-0039</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of payload H&amp;S with a healthy PEHG</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-10T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25945" ><Data ss:Type="Number">25945</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk4-SW-0081</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of comm with the LSG laptop requiring a RIC reboot</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-04-19T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25961" ><Data ss:Type="Number">25961</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk4-SW-0082</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Express Rack 4 SERC Heartbeat Stopped</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-05-10T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25899" ><Data ss:Type="Number">25899</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk5-SW-0012</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Polling to Payloads Following PEHG Update</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-03-19T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25902" ><Data ss:Type="Number">25902</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk5-SW-0013</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">&quot;Ping&quot; Batch file for GEDI not running as scheduled on ELC 5</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-03-22T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25924" ><Data ss:Type="Number">25924</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk5-SW-0014</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RIC Unable to Write Configuration Files to ELC5 Requiring RIC Reboot to Resolve</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-04-04T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26067" ><Data ss:Type="Number">26067</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk5-SW-0015</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ER5 Laptop Loss of Power/Comm with Wake on LAN recovery</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-24T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26047" ><Data ss:Type="Number">26047</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk6-HW-0011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Temperature sensor out of limits *low* after activation</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-07-29T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25771" ><Data ss:Type="Number">25771</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk8-SW-0019</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SSPCM Ch 8 (laptop) current out of state</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/24753" ><Data ss:Type="Number">24753</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk9B-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">BSSPCM Spurious AUX BIT Present Indication</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2019-05-18T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25623" ><Data ss:Type="Number">25623</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ExpRk9B-SW-0006</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Subset of Telemetry Goes to Zero</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25590" ><Data ss:Type="Number">25590</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Fluid_Integrations_Rack-FIR-SW-0034</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">FIR Confocal Control Unit Loss of Comm Due to High Image Frame Rate.</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-08-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25635" ><Data ss:Type="Number">25635</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Fluid_Integrations_Rack-FIR-SW-0035</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of IPSU Connection Requiring Soft Reboot (White Video)</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26083" ><Data ss:Type="Number">26083</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Fluid_Integrations_Rack-FIR-SW-0039</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of MRTL after LOS</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-08T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26168" ><Data ss:Type="Number">26168</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Fluid_Integrations_Rack-FIR-SW-0040</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Not able to KuFWD into IPSUCL via KuIP services on JSL1</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-23T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/24579" ><Data ss:Type="Number">24579</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">GEDI-SW-0005</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Ethernet Packet Loss between GEDI and LEHX</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25471" ><Data ss:Type="Number">25471</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">GEDI-SW-0008</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Unexpected Laser 3 Disablement</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-06-09T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25965" ><Data ss:Type="Number">25965</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">GEDI-SW-0009</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Abnormal Amount of  Packet Loss</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25943" ><Data ss:Type="Number">25943</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">HERA-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Artemis HERA High CPU Usage</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-04-15T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26139" ><Data ss:Type="Number">26139</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">HERA-SW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Adlink Mini PC S/N 1010 Reboot to Restore Arcturus Science Data Path</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-11-03T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26162" ><Data ss:Type="Number">26162</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">HRF-HW-0050</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">HRF 1 Centrifuge Latch Not Engaging</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-13T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26153" ><Data ss:Type="Number">26153</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">HRF2-HW-0024</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">HRF 2 Tube insert liberated from tube carrier</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-11-29T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25987" ><Data ss:Type="Number">25987</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ICEBERG1-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ICERBERG-1 Loud Noise Operating at Setpoint +4C</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-03T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25997" ><Data ss:Type="Number">25997</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ICEBERG1-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ICEBERG 1 Extended Loss of Heath and Status with automatic return</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26014" ><Data ss:Type="Number">26014</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ICF-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Communication to ICF Payload</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-25T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26016" ><Data ss:Type="Number">26016</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">INSPACE-HW-0008</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Oscillating Sample Image During Run.</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-30T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25867" ><Data ss:Type="Number">25867</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ISSExperience-HW-0004</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Z-Cam failure to initialize on MSS</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-03-01T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26062" ><Data ss:Type="Number">26062</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ISSExperience-HW-0005</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ISS Experience EVA ZCAM Teflon Tape Delamination</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-18T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26068" ><Data ss:Type="Number">26068</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ISSExperience-SW-0006</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ISS Experience SSC Software Hung Up With No Recovery After Reboot</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-24T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25806" ><Data ss:Type="Number">25806</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">ISS_HAM-HW-0007</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of ISS HAM signal after antenna mating/demating</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-12-28T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26044" ><Data ss:Type="Number">26044</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">KERMIT-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">USB Key not recognized by ELC</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26148" ><Data ss:Type="Number">26148</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">KREPE-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">KREPE Battery Tab Failure To Release</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-11-19T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25752" ><Data ss:Type="Number">25752</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">LIDAL-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Express Rack 3 Corrupt H&amp;S that Ceased Following RIC Reboot and Powering Off LIDAL</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-01-11T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26080" ><Data ss:Type="Number">26080</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">LIDAL-SW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Science Data Requiring Power Cycle</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-06T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26119" ><Data ss:Type="Number">26119</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">LIDAL-SW-0004</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">LIDAL Multiple Short H&amp;S Drops with Autonomous Return</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-10-13T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26006" ><Data ss:Type="Number">26006</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Lyophilization-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Mannitol particulates from Lyophilization viles.</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-22T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26011" ><Data ss:Type="Number">26011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Lyophilization-HW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Crew Unable to Fit Two Sample Trays into Sample Chamber</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-22T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26087" ><Data ss:Type="Number">26087</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MELFI3-SW-0010</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MELFI-3 Autostop with Transient MDE Telemetry Link Status Failed</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-12T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26095" ><Data ss:Type="Number">26095</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MELFI3-SW-0011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MELFI3 Activated Autostop Without Showing Any Parameters out of Limits</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26030" ><Data ss:Type="Number">26030</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MISSEFF-SW-0031</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Wireless Connection to Switchbox</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-07-12T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26189" ><Data ss:Type="Number">26189</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MOCHII-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MOCHII Stage Screw Free</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-18T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25478" ><Data ss:Type="Number">25478</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MOCHII-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Improper Computer Bootup During Initial Activation</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-06-15T18:01:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26190" ><Data ss:Type="Number">26190</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MOCHII-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MOCHII Loses Telemetry and Ability to SSH</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-19T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25794" ><Data ss:Type="Number">25794</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MSG-HW-0089</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Inability To Connect to MLC Following VUE Power Cycle</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-01-26T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26024" ><Data ss:Type="Number">26024</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MSG-SW-0051</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">VUE Reboot After Powering Off GIG-E Cameras</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26185" ><Data ss:Type="Number">26185</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MUSES-SW-0019</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MUSES File Operations Script Anomaly</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26186" ><Data ss:Type="Number">26186</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">MUSES-SW-0020</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">DESIS Command Execution Error</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-16T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/24204" ><Data ss:Type="Number">24204</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NANORACKS-HW-0014</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Lost Barrios PCG Plate S/N 1003</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2018-08-17T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26183" ><Data ss:Type="Number">26183</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NANORACKS-HW-0015</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Nanoracks Module-96 Unable to Connect to Mainframe Alpha</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25629" ><Data ss:Type="Number">25629</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NANORACKS-SW-0024</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NanoRacks Platform 2 Loss of Comm</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-09-24T17:13:37</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25840" ><Data ss:Type="Number">25840</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Nanoracks_Airlock-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Nanoracks Airlock CDHU Telemetry Software Lockup Causing APID 1432 Loss of Data</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25973" ><Data ss:Type="Number">25973</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Nanoracks_Airlock-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Nanoracks Airlock (NRAL) Loss of Some Temperature Data</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-05-21T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/24390" ><Data ss:Type="Number">24390</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">HEIST mounting brackets installed backwards</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2018-11-28T10:30:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/23273" ><Data ss:Type="Number">23273</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP-SW-0007</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP Wifi Failure</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/23277" ><Data ss:Type="Number">23277</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP-SW-0008</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP H&amp;S Counter Stale and Loss of APID 1391</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/24461" ><Data ss:Type="Number">24461</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP-SW-0009</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP KuIP services lost</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2019-01-09T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25256" ><Data ss:Type="Number">25256</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP-SW-0011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Communication with CRAIG-X Subpayload</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-02-10T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25650" ><Data ss:Type="Number">25650</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP-SW-0012</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP Dropping 3 H&amp;S packets every 10 seconds</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-10-10T14:21:40</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26038" ><Data ss:Type="Number">26038</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP-SW-0013</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NREP Not Booting on Expected Boot Drive</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-07-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26059" ><Data ss:Type="Number">26059</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NR_Mainframe-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NanoRacks Mainframe cold power up requiring power cycle</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-08-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26156" ><Data ss:Type="Number">26156</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">NR_Mainframe-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Unable to connect to P/L (RDP or SSH) with good ground ping/response</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-11-30T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25991" ><Data ss:Type="Number">25991</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OBIS-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Session Pack 4 ON - OFF Switch Is Reversed</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-08T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25992" ><Data ss:Type="Number">25992</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OBIS-HW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Session Pack 2 &amp; 3 leaking/upstream bags disconnected</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-08T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26017" ><Data ss:Type="Number">26017</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OBIS-HW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Session Pack 23 Leaking</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-30T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25854" ><Data ss:Type="Number">25854</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OCO3-SW-0011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OCO3 Safed Itself due to Loss of Broadcast Ancillary Data</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-02-24T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26078" ><Data ss:Type="Number">26078</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OCO3-SW-0012</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OCO-3 Intermittent Systematic Science Data Loss</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-03T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26164" ><Data ss:Type="Number">26164</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PlantHabitat-HW-0010</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">&quot;Flaked&quot; Water QD</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-15T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26170" ><Data ss:Type="Number">26170</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PlantHabitat-HW-0011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Plant Habitat Overcurrent Trip at Locker 4</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-27T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26171" ><Data ss:Type="Number">26171</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PlantHabitat-HW-0012</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Unable to Control CO2 Levels in Growth Chamber Resulting in High CO2 Concentration</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-28T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26084" ><Data ss:Type="Number">26084</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PlantHabitat-SW-0006</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Payload Reboot Due to Unknown Reason</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-10T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26093" ><Data ss:Type="Number">26093</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">POLAR-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Polar 6 (S/N 008) and Polar 8 (S/N 019) Loss of Health and Status Requiring Crew Reboot</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-15T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26109" ><Data ss:Type="Number">26109</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">POLAR-SW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Unresponsive and Frozen POLAR Front Panel Display</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-29T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26105" ><Data ss:Type="Number">26105</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">POLAR11-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">POLAR11 (S/N 007) Icing Event on the Internal Fan Causing Cold Volume to Warm Up</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26091" ><Data ss:Type="Number">26091</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">POLAR6-HW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Polar 6 (S/N 008) Rattling in Dragon</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-15T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26090" ><Data ss:Type="Number">26090</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RODENT-HW-0010</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Lost Needle During Suture Ops</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26175" ><Data ss:Type="Number">26175</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RODENT-HW-0011</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Unexpected Sharps Container Lid Configuration</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-06T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26167" ><Data ss:Type="Number">26167</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RODENT-SW-0013</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RH-2 Prime Loss of H&amp;S in ER2 L2 after enabling power to RH-A Backup in ER2 L3.</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-23T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26122" ><Data ss:Type="Number">26122</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RSD-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Spin Motor Unable to Maintain Speed</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-10-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26079" ><Data ss:Type="Number">26079</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RSD-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PD unable to RDP to access RSD Flight Computer</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-04T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26103" ><Data ss:Type="Number">26103</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">RSD-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Connection to Internal Camera Causing Additional Reboots to Recover</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-24T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26134" ><Data ss:Type="Number">26134</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SABL1-SW-0009</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SABL 1 Multiple Sensor Fails and EMs Indicating Value Over 3 With No Automatic Reboot</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-10-27T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26169" ><Data ss:Type="Number">26169</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SABL4-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SABL 4 Loss of Health and Status Due to Failed Hard Drive</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-01T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26147" ><Data ss:Type="Number">26147</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SALI1-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SALI-1 Thermoelectric Cooler (TEC) Stopped Functioning</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-11-17T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26151" ><Data ss:Type="Number">26151</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SALI1-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SALI 1 sbRIO Fault with Loss &amp; of H/S</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26191" ><Data ss:Type="Number">26191</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SAMS-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Unconnected ethernet cable for TSH-ES SN20</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26165" ><Data ss:Type="Number">26165</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SAMS-SW-0010</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SAMS EE-F01 Causing Elevated SAMS CU CPU Utilization</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25031" ><Data ss:Type="Number">25031</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of H&amp;S With Automatic Return While Located in an EXPRESS Rack</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25399" ><Data ss:Type="Number">25399</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0012</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Intermittent H&amp;S Drop Outs during PD commanding</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-04-24T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25425" ><Data ss:Type="Number">25425</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0014</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Software Not Loading Properly Upon Power-up</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-05-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25465" ><Data ss:Type="Number">25465</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0015</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Temporary Loss of H&amp;S while in Node 2</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25468" ><Data ss:Type="Number">25468</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0016</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM in Read Only mode</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25528" ><Data ss:Type="Number">25528</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0017</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of H&amp;S Recovered by Soft Reboot</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-07-16T16:58:50</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25551" ><Data ss:Type="Number">25551</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0018</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PD Unable to Connect to Payload</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-07-29T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25568" ><Data ss:Type="Number">25568</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0019</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Extended Loss of Comm without Automatic Return in NODE 2</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-08-04T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25764" ><Data ss:Type="Number">25764</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0020</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Science data not storing to the onboard data file</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-01-14T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25922" ><Data ss:Type="Number">25922</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0021</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM Data not being Recording to PL NAS</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-04-01T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25947" ><Data ss:Type="Number">25947</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0022</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM Loss of H&amp;S While Maintaining APID 1498 and MCA Mode</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-04-23T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25969" ><Data ss:Type="Number">25969</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0023</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM Showing Low Current Draw (~0.5A) Following Initial Power Cycle</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-05-18T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25994" ><Data ss:Type="Number">25994</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0024</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of H&amp;S / Connectivity following power cycles</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-06-06T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26029" ><Data ss:Type="Number">26029</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM-SW-0025</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SCRAM complete loss of comm following LOS and power cycles</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-07-11T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25856" ><Data ss:Type="Number">25856</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SERFE-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SERFE automatic soft reboot during ARP data storm</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-02-25T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25869" ><Data ss:Type="Number">25869</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SPACEBORNE-HW-0003</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">High-Torque Locker Tool too large for Spaceborne Computer-2 installation receivers</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-03-03T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25977" ><Data ss:Type="Number">25977</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SPACEBORNE-HW-0004</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Spaceborne Computer-2 Locker 2 &amp; 6 Overcurrent Trip (ER10B)</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26108" ><Data ss:Type="Number">26108</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SPACEBORNE-SW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Loss of Comm with Internal Computers Requiring Locker Power Cycle</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-09-28T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25668" ><Data ss:Type="Number">25668</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SPECTRUM-SW-0002</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">SPECTRUM NTP is not connecting</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2020-10-30T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26086" ><Data ss:Type="Number">26086</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TCMM-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Seepage of excess resin within the print module</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">1969-12-31T16:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25907" ><Data ss:Type="Number">25907</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TranAL-SW-0010</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Software Unresponsive with Frozen Telemetry</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-03-25T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25889" ><Data ss:Type="Number">25889</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TransAl-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TransAl EU Missing A1 and A6 Captive Fasteners.</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-03-15T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/25890" ><Data ss:Type="Number">25890</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TransAl-SW-0009</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TransAl Data disk write error</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-03-15T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26172" ><Data ss:Type="Number">26172</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TSCM-HW-0001</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">Heater Core Errors Resulting in Loss of Functionality</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2022-01-03T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  <Row ss:AutoFitHeight="0" >
+  <Cell  ss:StyleID="s21"  ss:HRef="https://part.iss.nasa.gov/record/26157" ><Data ss:Type="Number">26157</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">PAR</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TSIS-SW-0007</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">TSIS Unresponsive to Safing Command by PRO</Data></Cell>
+          
+          <Cell ss:StyleID="s24"><Data ss:Type="DateTime">2021-12-02T00:00:00</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">OPENED</Data></Cell>
+          <Cell ss:StyleID="s25"><Data ss:Type="String">---</Data></Cell>
+  </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
