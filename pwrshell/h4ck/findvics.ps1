@@ -1,4 +1,4 @@
-#take a command and show the help
+
 # using param to make these cli friendly
 param(
     [Parameter()]
