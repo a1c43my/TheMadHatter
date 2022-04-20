@@ -1,0 +1,100 @@
+* {
+    margin: 5px;
+}
+/* phone styling */
+
+@media only screen and (min-width:375px) {
+
+}
+
+body{
+    background-color: black;
+    color:white;
+    width:100%;
+}
+
+nav{
+    position: absolute;
+    top:15%;
+    left:5%;
+    background-color: grey;
+    color:black;
+    border: 5px ridge white;
+    width:10%;
+    height:40%;
+}
+.nav-btn {
+    position: relative;
+    width: 70%;
+    left:15%;
+    
+}
+.nav-btn a {
+    color:black;
+    text-decoration: none;
+    
+}
+.nav1{
+    top:10%;
+}
+.nav2{
+    top:20%;
+}
+.nav3{
+    top:30%;
+}
+.nav4{
+    top:40%;
+}
+.nav5{
+    top:50%;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    position:absolute;
+    top:15%;
+    left:80%;
+
+    
+}
+.logo-brd{    border: 2px ridge goldenrod;}
+
+header {
+    width: 95%;
+    height:10%;
+    border: solid 2px white;
+    position:absolute;
+    
+}
+header h1 {
+    width: 50%;
+    
+
+    position:absolute;
+    
+}
+
+main {
+    background-color: white;
+    position:absolute;
+    top:20%;
+    left:20%;
+    width:55%;
+    padding: 10px;
+    
+}
+main p {
+    background-color: black;
+    color:green;
+    width: 50%;
+    height: 20%;
+    size: 18px;
+    /*padding: 10px;*/
+}
+.lp {padding-right: 5px;}
+.inner {
+    background-color: white;
+    color: black;
+}
