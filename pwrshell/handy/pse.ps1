@@ -6,24 +6,6 @@ param(
 )
 
 ## make sure the log folder is present, if not create it where you are and let you know 
-$folder = Test-Path "./logs/"
-if($folder){
-    echo "checking for ./logs "
-    Start-Sleep -Seconds 1
-    echo "folder ready at $(Get-Location)\logs" 
-    Start-Sleep -Seconds 1
-    cls
-}
-else {
-    echo "----------------------------------"
-    echo "creating folder ./logs"
-    Start-Sleep -Seconds 1
-    New-Item -Type Directory -Name logs
-    Start-Sleep -Seconds 2
-    echo "folder created at $(Get-Location | Select-Object )\logs"
-    Start-Sleep -Seconds 1
-    cls
-}
 ################
  if($par -and $pd){
         echo "adding pd to file"
@@ -47,6 +29,25 @@ $file = "$par.txt"
     
     if($ready){
         Write-Output ""
+        $folder = Test-Path "./logs/"
+        if($folder){
+            echo "checking for ./logs "
+            Start-Sleep -Seconds 1
+            echo "folder ready at $(Get-Location)\logs" 
+            Start-Sleep -Seconds 1
+            cls
+        }
+        else {
+            echo "----------------------------------"
+            echo "creating folder ./logs"
+            Start-Sleep -Seconds 1
+            New-Item -Type Directory -Name logs
+            Start-Sleep -Seconds 2
+            echo "folder created at $(Get-Location | Select-Object )\logs"
+            Start-Sleep -Seconds 1
+            cls
+        }
+
         echo " done with record # for $par"
     }
     else {
