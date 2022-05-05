@@ -41,7 +41,7 @@ if($m -eq "site" -and !($count)){
 }
 if($m -eq "vic" -and $count){
     echo "sending ping to $vic"
-    hostping($vic=$vic,$count=$count)
+    hostping($vic,$count=$count)
     break
 }
 else {Write-Output " Usage /.learn.ps1 -m [site/vic] to see help []"}
