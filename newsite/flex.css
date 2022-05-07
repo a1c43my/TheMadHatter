@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+    position: absolute;
+    left:40%;
+    top:20%;
+    
+}
+
+main h4{
+    background-color: black;
+    color: green;
+    
+}
+
+
+nav {
+    width: 20%;
+    position: absolute;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+.mobile {
+    display: none;
+
+  }
+  .desktop {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+  }
+.desktop a,.mobile a {
+    text-decoration: none;
+    color: white;
+}
+.btn1 {
+  padding: 20px;
+  flex: 20%;
+}
+
+.btn{
+    background-color: black;
+    
+    width: 90%;
+    padding: 15px;
+}
+footer{
+    position: absolute;
+    top:90%;
+    text-align: center;
+
+}
+.footer1{
+    position: absolute;
+    top:90%;
+
+}
+
+.logo {
+    position: absolute;
+    left:75%;
+    top:10%;
+    width: 15%;
+}
+.logo-brd {
+    
+    width: 100%;
+}
+.clr {
+    color: white;
+}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+
+    main{
+    position: absolute;
+    left:20%;
+    top:20%;
+    }
+    .logo {
+        display: none;
+    }
+  .desktop {
+ 
+    display: none;
+  }
+  .mobile {
+      display: flex;
+      flex-direction: row;
+      
+  }
+  nav {
+      width: 80%;
+      position: absolute;
+      left:10%;
+}
+}
