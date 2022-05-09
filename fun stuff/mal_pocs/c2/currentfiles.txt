@@ -1,8 +1,0 @@
-agent.bat
-agent.ps1
-client.py
-currentfiles.txt
-homedrive.txt
-homepath.txt
-server.py
-xxx 
