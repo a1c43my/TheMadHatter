@@ -7,3 +7,8 @@ fun stuff/cpp/.vs/cpp/v17/Browse.VC.db-wal
 fun stuff/cpp/.vs/cpp/v17/Browse.VC.opendb
 fun stuff/cpp/.vs/slnx.sqlite
 fun stuff/cpp/.vs/ProjectSettings.json
+fun stuff/mal_pocs/c2/currentfiles.txt
+fun stuff/mal_pocs/c2/homedrive.txt
+fun stuff/mal_pocs/c2/homepath.txt
+fun stuff/mal_pocs/c2/agent.txt
+*.bat
