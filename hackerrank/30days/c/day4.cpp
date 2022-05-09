@@ -12,11 +12,12 @@ class Person{
     Person::Person(int initialAge){
         // Add some more code to run some checks on initialAge
     
-        if(initialAge < 0){
-            age = 0; cout<<"Age is not valid, setting ago to 0."<<endl;
+        if(initialAge < 0 || initialAge == NULL){
+            age = 0; 
+            cout<<"Age is not valid, setting ago to 0."<<endl;
             
         }
-        if(initialAge > 0){ 
+        else { 
             age = initialAge;
         }
 
@@ -27,10 +28,10 @@ class Person{
         if (age < 13){
             cout<<"You are young."<<endl;
         }
-        if (age >= 13 && age <= 18){
+        else if (age>= 13 && age <= 18){
             cout<<"You are a teenager."<<endl;
         }
-        if(age > 18) {
+        else {
             cout<<"You are old."<<endl;
         }
 
@@ -38,7 +39,7 @@ class Person{
 
     void Person::yearPasses(){
         // Increment the age of the person in here
-    age ++;
+    age +=1;
     }
 
 int main(){
