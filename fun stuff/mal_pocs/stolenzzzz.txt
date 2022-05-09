@@ -1,0 +1,1 @@
+r\nVideos\r\nVirtualBox VMs\r\nyyy.txt\r\nxxx \r\n'b'agent.bat\r\nagent.ps1\r\nclient.py\r\ncurrentfiles.txt\r\nhomedrive.txt\r\nhomepath.txt\r\nserver.py\r\nxxx \r\n'b'agent.bat\r\nagent.ps1\r\nclient.py\r\ncurrentfiles.txt\r\nhomedrive.txt\r\nhomepath.txt\r\nserver.py\r\nxxx \r\n'

