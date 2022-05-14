@@ -8,14 +8,10 @@ Decimal,Keyword,Protocol,IPv6 Extension Header,Reference
 6,TCP,Transmission Control,,[RFC-ietf-tcpm-rfc793bis-28]
 7,CBT,CBT,,[Tony_Ballardie]
 8,EGP,Exterior Gateway Protocol,,[RFC888][David_Mills]
-9,IGP,"any private interior gateway             
-(used by Cisco for their IGRP)",,[Internet_Assigned_Numbers_Authority]
+9,IGP,"any private interior gateway              (used by Cisco for their IGRP)",,[Internet_Assigned_Numbers_Authority]
 10,BBN-RCC-MON,BBN RCC Monitoring,,[Steve_Chipman]
 11,NVP-II,Network Voice Protocol,,[RFC741][Steve_Casner]
-12,PUP,PUP,,"[Boggs, D., J. Shoch, E. Taft, and R. Metcalfe, ""PUP: An
-Internetwork Architecture"", XEROX Palo Alto Research Center,
-CSL-79-10, July 1979; also in IEEE Transactions on
-Communication, Volume COM-28, Number 4, April 1980.][[XEROX]]"
+12,PUP,PUP,,"[Boggs, D., J. Shoch, E. Taft, and R. Metcalfe, ""PUP: An Internetwork Architecture"", XEROX Palo Alto Research Center,CSL-79-10, July 1979; also in IEEE Transactions on Communication, Volume COM-28, Number 4, April 1980.][[XEROX]]"
 13,ARGUS (deprecated),ARGUS,,[Robert_W_Scheifler]
 14,EMCON,EMCON,,[<mystery contact>]
 15,XNET,Cross Net Debugger,,"[Haverty, J., ""XNET Formats for Internet Protocol Version 4"",
@@ -26,18 +22,8 @@ IEN 158, October 1980.][Jack_Haverty]"
 USC/Information Sciences Institute, May 1979.][Jon_Postel]"
 19,DCN-MEAS,DCN Measurement Subsystems,,[David_Mills]
 20,HMP,Host Monitoring,,[RFC869][Bob_Hinden]
-21,PRM,Packet Radio Measurement,,[Zaw_Sing_Su]
-22,XNS-IDP,XEROX NS IDP,,"[""The Ethernet, A Local Area Network: Data Link Layer and
-Physical Layer Specification"", AA-K759B-TK, Digital
-Equipment Corporation, Maynard, MA.  Also as: ""The
-Ethernet - A Local Area Network"", Version 1.0, Digital
-Equipment Corporation, Intel Corporation, Xerox
-Corporation, September 1980.  And: ""The Ethernet, A Local
-Area Network: Data Link Layer and Physical Layer
-Specifications"", Digital, Intel and Xerox, November 1982.
-And: XEROX, ""The Ethernet, A Local Area Network: Data Link
-Layer and Physical Layer Specification"", X3T51/80-50,
-Xerox Corporation, Stamford, CT., October 1980.][[XEROX]]"
+21,Telnet
+22,SSH
 23,TRUNK-1,Trunk-1,,[Barry_Boehm]
 24,TRUNK-2,Trunk-2,,[Barry_Boehm]
 25,LEAF-1,Leaf-1,,[Barry_Boehm]
