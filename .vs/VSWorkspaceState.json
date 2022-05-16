@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\cpp"
+    "\\python",
+    "\\python\\playground",
+    "\\python\\playground\\protocols"
   ],
+  "SelectedNode": "\\python\\playground\\protocols\\webinfo.py",
   "PreviewInSolutionExplorer": false
 }
