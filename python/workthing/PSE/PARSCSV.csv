@@ -132,7 +132,7 @@
 25890,"PAR","TransAl-SW-0009","TransAl Data disk write error","2021-03-15 00:00:00","OPENED"," ---"
 26172,"PAR","TSCM-HW-0001","Heater Core Errors Resulting in Loss of Functionality","2022-01-03 00:00:00","OPENED"," ---"
 26157,"PAR","TSIS-SW-0007","TSIS Unresponsive to Safing Command by PRO","2021-12-02 00:00:00","OPENED"," ---"
-"","","STPH5-SW-0008","","","CLOSED"
+32232,"","STPH5-SW-0008","","","CLOSED"
 "","","MERLIN1-SW-0002","","","CLOSED"
 "","","MSG-SW-0051","","","CLOSED"
 "","","SAMS-SW-0008","","","CLOSED"

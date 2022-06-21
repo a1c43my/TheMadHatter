@@ -24,3 +24,7 @@ fun stuff/mal_pocs/c2/agent.txt
 .vs/TheMadHatter/v16/.suo
 .vs/TheMadHatter/v16/Browse.VC.db
 .vs/VSWorkspaceState.json
+*.json
+*.pyc
+*.sqlite
+python/workthing/.vs/workthing/v16/.suo

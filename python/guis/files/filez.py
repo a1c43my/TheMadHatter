@@ -46,7 +46,6 @@ def select_file():
         message=f"Unspported file selected {filename[-4:]}"
             )   
 
-
 # open button
 open_button = ttk.Button(
     root,
